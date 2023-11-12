@@ -4,7 +4,9 @@
   "description": "Thousand Character Text",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ../dist/cli.js prepare-dmint --help",
+    "prepare-dmint": "node ../dist/cli.js prepare-dmint ./assets 817000 eee2311 ./manifest.json",
+    "enable-dmint": "node ../dist/cli.js enable-dmint qzw ./manifest.json --bitworkc eee2311 --satsbyte 50"
   },
   "repository": {
     "type": "git",
