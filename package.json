@@ -4,9 +4,11 @@
   "description": "Thousand Character Text",
   "main": "index.js",
   "scripts": {
-    "test": "node ../dist/cli.js prepare-dmint --help",
-    "prepare-dmint": "node ../dist/cli.js prepare-dmint ./assets 817000 eee2311 ./manifest.json",
-    "enable-dmint": "node ../dist/cli.js enable-dmint qzw ./manifest.json --bitworkc eee2311 --satsbyte 50"
+    "test": "node ../dist/cli.js prepare-dmint-items --help",
+    "prepare-dist": "mkdir -p ./dist",
+    "prepare-dmint-items": "node ../dist/cli.js prepare-dmint-items ./assets ./dist/assets",
+    "prepare-dmint": "node ../dist/cli.js prepare-dmint ./dist/assets-1699883696201 817000 eee2311",
+    "enable-dmint": "node ../dist/cli.js enable-dmint ./dist/assets-1699883696201/dmint-1699883822709.json"
   },
   "repository": {
     "type": "git",
