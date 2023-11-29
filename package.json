@@ -7,7 +7,7 @@
     "test": "node ../dist/cli.js prepare-dmint-items --help",
     "prepare-dist": "mkdir -p ./dist",
     "prepare-dmint-items": "node ../dist/cli.js prepare-dmint-items ./assets ./dist/assets",
-    "prepare-dmint": "node ../dist/cli.js prepare-dmint ./dist/assets-1699883696201 817000 eee2311",
+    "prepare-dmint": "node ../dist/cli.js prepare-dmint ./dist/assets-1701267183045 200000 ac20231",
     "enable-dmint": "node ../dist/cli.js enable-dmint ./dist/assets-1699883696201/dmint-1699883822709.json"
   },
   "repository": {

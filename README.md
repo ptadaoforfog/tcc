@@ -1,2 +1,2 @@
-# thousand-character-text
-Thousand Character Text
+# tcc
+Thousand Character Classic
