@@ -4,11 +4,15 @@
   "description": "Thousand Character Text",
   "main": "index.js",
   "scripts": {
-    "test": "node ../dist/cli.js prepare-dmint-items --help",
     "prepare-dist": "mkdir -p ./dist",
+    "prepare-container": "mint-container tcc --initialowner bc1pqqwjdkaz6ds7v529l56ul66cxn8e28jx86uzcmuse02wgurl72dqu7vt24 --satsoutput=1000 --bitworkc=b6cf --satsbyte=50",
     "prepare-dmint-items": "node ../dist/cli.js prepare-dmint-items ./assets ./dist/assets",
-    "prepare-dmint": "node ../dist/cli.js prepare-dmint ./dist/assets-1701267183045 200000 ac20231",
-    "enable-dmint": "node ../dist/cli.js enable-dmint ./dist/assets-1699883696201/dmint-1699883822709.json"
+    "prepare-dmint": "node ../dist/cli.js prepare-dmint ./dist/assets-1701267183045 820000 ac20231",
+    "enable-dmint": "node ../dist/cli.js enable-dmint tcc ./dist/assets-1699883696201/dmint-1699883822709.json",
+    "validate-ditem": "node ../dist/cli.js validate-container-item tcc item-1 ./dist/assets-1699883696201/item-1.json",
+    "store-logo": "node ../dist/cli.js store-file ./logo-64.png logo.png --satsbyte=50",
+    "update-container-meta": "node ../dist/cli.js set-container-data tcc ./tcc-metadata.json --satsbyte=50",
+    "seal-container": "node ../dist/cli.js seal tcc --satsbyte=50"
   },
   "repository": {
     "type": "git",
