@@ -2,19 +2,9 @@
     "name": "tcc",
     "desc": "Thousand Character Classic",
     "image": "atom:btc:dat:<location of store-file data>/image.png",
-    "legal": {
-      "terms": "...",
-      "license": "CC"
-    },
     "links": {
       "x": {
-        "v": "https://x.com/..."
-      },
-      "website": {
-        "v": "https://..."
-      },
-      "discord": {
-        "v": "https://discord.gg/..."
+        "v": "https://x.com/ptadaoforfog"
       }
     }
 }
