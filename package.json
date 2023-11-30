@@ -6,14 +6,16 @@
   "scripts": {
     "prepare-dist": "mkdir -p ./dist",
     "init-wallet": "node ../dist/cli.js wallet-init",
-    "prepare-container": "node ../dist/cli.js mint-container tcc --satsoutput=1000 --bitworkc=b6cf --satsbyte=34",
+    "prepare-container": "node ../dist/cli.js mint-container tcc --initialowner bc1pqqwjdkaz6ds7v529l56ul66cxn8e28jx86uzcmuse02wgurl72dqu7vt24 --satsoutput=1000 --bitworkc=b6cf --satsbyte=60",
     "prepare-dmint-items": "node ../dist/cli.js prepare-dmint-items ./assets ./items",
-    "prepare-dmint": "node ../dist/cli.js prepare-dmint ./items-1701357209106 819182 cc2023",
-    "enable-dmint": "node ../dist/cli.js enable-dmint tcc ./items-1701357209106/dmint-1701363293855.json --satsbyte=40",
-    "validate-ditem": "node ../dist/cli.js validate-container-item tcc 1 ./dist/assets-1699883696201/item-1.json",
-    "store-logo": "node ../dist/cli.js store-file ./logo-64.png logo.png --satsbyte=40",
-    "update-container-meta": "node ../dist/cli.js set-container-data tcc ./tcc-metadata.json --satsbyte=40",
-    "seal-container": "node ../dist/cli.js seal tcc --satsbyte=40"
+    "prepare-dmint": "node ../dist/cli.js prepare-dmint ./items-1701357209106 0 cc2023",
+    "enable-dmint": "node ../dist/cli.js enable-dmint tcc ./items-1701357209106/dmint-1701382417683.json --satsbyte=40",
+    "validate-ditem": "node ../dist/cli.js validate-container-item tcc 1 ./items-1701357209106/item-1.json",
+    "store-logo": "node ../dist/cli.js store-file ./logo-64.png logo.png --satsbyte=60",
+    "update-container-meta": "node ../dist/cli.js set-container-data tcc ./tcc-metadata.json --satsbyte=60",
+    "query-container": "node ../dist/cli.js state tcc",
+    "seal-container": "node ../dist/cli.js seal tcc --satsbyte=60",
+    "mint-item": "node ../dist/cli.js mint-item tcc item-1 ./items-1701357209106/item-1.json --satsbyte=60"
   },
   "repository": {
     "type": "git",

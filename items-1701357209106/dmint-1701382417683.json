@@ -1,7 +1,7 @@
 {
   "dmint": {
     "v": "1",
-    "mint_height": 819182,
+    "mint_height": 0,
     "merkle": "dfa364d466564d9baa640464a31d50b324bf9995bae3f16e518ecd7d082e6c89",
     "immutable": true,
     "items": 1000,
