@@ -9,11 +9,11 @@
     "prepare-container": "node ../dist/cli.js mint-container tct --satsoutput=1000 --bitworkc=b6cf --satsbyte=1",
     "prepare-dmint-items": "node ../dist/cli.js prepare-dmint-items ./assets ./items",
     "prepare-dmint": "node ../dist/cli.js prepare-dmint ./items-1701357209106 0 cc2023",
-    "enable-dmint": "node ../dist/cli.js enable-dmint tct ./items-1701357209106/dmint-1701360209536.json --satsbyte=1 --owner=tb1padp2y2hd8jjda3sfls9re867xd2e9yfnz8t8hgm5zt9n2suuhllq68fs3r --funding=tb1padp2y2hd8jjda3sfls9re867xd2e9yfnz8t8hgm5zt9n2suuhllq68fs3r",
-    "validate-ditem": "node ../dist/cli.js validate-container-item tcc item-1 ./dist/assets-1699883696201/item-1.json",
-    "store-logo": "node ../dist/cli.js store-file ./logo-64.png logo.png --satsbyte=50",
-    "update-container-meta": "node ../dist/cli.js set-container-data tcc ./tcc-metadata.json --satsbyte=50",
-    "seal-container": "node ../dist/cli.js seal tcc --satsbyte=50"
+    "enable-dmint": "node ../dist/cli.js enable-dmint tct ./items-1701357209106/dmint-1701360209536.json --satsbyte=1",
+    "validate-ditem": "node ../dist/cli.js validate-container-item tct item-1 ./dist/assets-1699883696201/item-1.json",
+    "store-logo": "node ../dist/cli.js store-file ./logo-64.png logo.png --satsbyte=1",
+    "update-container-meta": "node ../dist/cli.js set-container-data tct ./tcc-metadata.json --satsbyte=1",
+    "seal-container": "node ../dist/cli.js seal tct --satsbyte=1"
   },
   "repository": {
     "type": "git",
