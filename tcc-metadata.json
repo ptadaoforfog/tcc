@@ -1,14 +1,20 @@
 {
-    "name": "tcc",
-    "desc": "Thousand Character Classic",
-    "image": "atom:btc:dat:<location of store-file data>/image.png",
-    "links": {
-      "x": {
-        "v": "https://x.com/ptadaoforfog"
-      },
-      "github": {
-        "v": "https://github.com/ptadaoforfog/tcc"
-      }
+  "name": "tct",
+  "desc": "Thousand Character Classic",
+  "image": "atom:btc:dat:b1ad6dfdbee1be491278d908827e24d4feee4834dbbe7d0ae2fd7134983c42b0i0/logo.png",
+  "legal": {
+    "terms": "XXX,xxx",
+    "license": "CC"
+  },
+  "links": {
+    "x": {
+      "v": "https://x.com/ptadaoforfog"
+    },
+    "website": {
+      "v": "https://aon-playtest.ptadao.xyz/"
+    },
+    "discord": {
+      "v": "https://discord.gg/sh4d2dt93U"
     }
+  }
 }
-
