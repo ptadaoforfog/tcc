@@ -1,0 +1,15 @@
+{
+  "dmint": {
+    "v": "1",
+    "mint_height": 0,
+    "merkle": "17cea2070d3443292129db254452028695288249fdcb6422b4a5a091eb585d3d",
+    "immutable": true,
+    "items": 1000,
+    "rules": [
+      {
+        "p": ".*",
+        "bitworkc": "cc20"
+      }
+    ]
+  }
+}

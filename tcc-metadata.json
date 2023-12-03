@@ -1,20 +1,14 @@
 {
-  "name": "tct",
+  "name": "tcxyz",
   "desc": "Thousand Character Classic",
-  "image": "atom:btc:dat:b1ad6dfdbee1be491278d908827e24d4feee4834dbbe7d0ae2fd7134983c42b0i0/logo.png",
+  "image": "atom:btc:dat:bb79a6113339fb368775e4f3fc6d9a4941e73079a9eb96a9a121dfa8af9a8337i0/logo.png",
   "legal": {
-    "terms": "XXX,xxx",
-    "license": "CC"
+    "terms": "Our NFT project officially adopts the CC0 (Creative Commons Zero) mode.",
+    "license": "CCO"
   },
   "links": {
     "x": {
       "v": "https://x.com/ptadaoforfog"
-    },
-    "website": {
-      "v": "https://aon-playtest.ptadao.xyz/"
-    },
-    "discord": {
-      "v": "https://discord.gg/sh4d2dt93U"
     }
   }
 }
