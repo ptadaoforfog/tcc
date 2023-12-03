@@ -12,12 +12,12 @@
     "enable-dmint": "node ../dist/cli.js enable-dmint '#tcc' ./items-1701357209106/dmint-1701382417683.json --satsbyte=40",
     "validate-ditem": "node ../dist/cli.js validate-container-item '#tcc' 999 ./items-1701357209106/item-999.json",
     "store-logo": "node ../dist/cli.js store-file ./logo-64.png logo.png --satsbyte=80",
-    "update-container-meta": "node ../dist/cli.js set-container-data '#tcc' ./tcc-metadata.json --satsbyte=2",
+    "update-container-meta": "node ../dist/cli.js set-container-data '#tcc' ./tcc-metadata.json --satsbyte=80",
     "state-container": "node ../dist/cli.js state '#tcc'",
     "get-container": "node ../dist/cli.js get-container '#tcc'",
     "get-container-items": "node ../dist/cli.js get-container-items '#tcc' 0 10",
-    "seal-container": "node ../dist/cli.js seal '#tcc' --satsbyte=2 --bitworkc=666",
-    "mint-item": "node ../dist/cli.js mint-item '#tcc' 1 ./items-1701561812171/item-1.json --satsbyte=2"
+    "seal-container": "node ../dist/cli.js seal '#tcc' --satsbyte=80",
+    "mint-item": "node ../dist/cli.js mint-item '#tcc' 1 ./items-1701561812171/item-1.json --satsbyte=80"
   },
   "repository": {
     "type": "git",
