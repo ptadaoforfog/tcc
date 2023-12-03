@@ -1,14 +1,13 @@
 {
-  "name": "tcxyz",
+  "name": "tcc",
   "desc": "Thousand Character Classic",
   "image": "atom:btc:dat:bb79a6113339fb368775e4f3fc6d9a4941e73079a9eb96a9a121dfa8af9a8337i0/logo.png",
-  "legal": {
-    "terms": "Our NFT project officially adopts the CC0 (Creative Commons Zero) mode.",
-    "license": "CCO"
-  },
   "links": {
     "x": {
       "v": "https://x.com/ptadaoforfog"
+    },
+    "github": {
+      "v": "https://github.com/ptadaoforfog/tcc"
     }
   }
 }
