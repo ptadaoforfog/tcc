@@ -17,7 +17,7 @@
     "get-container": "node ../dist/cli.js get-container #ttxyz",
     "get-container-items": "node ../dist/cli.js get-container-items #ttxyz 0 10",
     "seal-container": "node ../dist/cli.js seal '#ttxyz' --satsbyte=2 --bitworkc=666",
-    "mint-item": "node ../dist/cli.js mint-item #ttxyz 1 ./items-1701561812171/item-1.json --satsbyte=2"
+    "mint-item": "node ../dist/cli.js mint-item '#ttxyz' 1 ./items-1701561812171/item-1.json --satsbyte=2"
   },
   "repository": {
     "type": "git",
